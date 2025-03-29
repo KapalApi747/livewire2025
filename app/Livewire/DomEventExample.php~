@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Livewire;
+
+use Livewire\Component;
+
+class DomEventExample extends Component
+{
+    public function render()
+    {
+        return view('livewire.dom-event-example');
+    }
+}
